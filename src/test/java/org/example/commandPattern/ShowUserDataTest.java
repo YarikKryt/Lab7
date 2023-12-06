@@ -51,9 +51,6 @@ class ShowUserDataTest {
         // Execute the command
         assertDoesNotThrow(() -> showUserData.execute());
 
-        // Add assertions based on the expected behavior of the execute method
-        // For example, you can use assertEquals to check the output printed to the console
-
         // Verify that the statement.executeQuery method is called with the correct SQL command
         verify(statement, times(1)).executeQuery("SELECT SNP, BirthDate, City, ExperienceDriving, CategoryB, " +
                 "ExperienceTaxiDriverB, ExperienceTaxiDriver, PhoneNumber, SelfDescription " +

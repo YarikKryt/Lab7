@@ -51,8 +51,6 @@ class AccountManagerTest {
         // Create an instance of AccountManager
         AccountManager accountManager = new AccountManager(statement);
 
-        // Set up test data (adjust as needed based on your actual data)
-        // You may need to mock the scanner input or adjust the showUserRentCars method to accept Scanner as a parameter
         accountManager.showUserRentCars(1);
 
         // Redirect System.out to capture printed output
