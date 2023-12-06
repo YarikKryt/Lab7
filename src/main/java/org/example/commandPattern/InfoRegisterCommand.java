@@ -107,3 +107,4 @@ public class InfoRegisterCommand implements ICommand {
 
     }
 }
+
